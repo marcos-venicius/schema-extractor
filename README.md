@@ -44,3 +44,5 @@ For example, if you run `node . package.json`, the output will be something like
   }
 }
 ```
+
+> Json examples from [json.org](https://json.org/example.html)

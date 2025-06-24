@@ -58,11 +58,11 @@ function mountObjectSchema(output, document) {
       case OBJECT: mountObjectSchema(output[key][type], document[key]); break;
       case ARRAY: mountArraySchema(output[key][type], document[key]); break;
     }
+  }
 
-    for (const key in output) {
-      if (!(key in document)) {
-        output[key][MISSING] = {};
-      }
+  for (const key in output) {
+    if (!(key in document)) {
+      output[key][MISSING] = {};
     }
   }
 }

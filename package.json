@@ -1,0 +1,11 @@
+{
+  "name": "schema-extractor",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "https://github.com/marcos-venicius",
+  "license": "MIT",
+  "description": ""
+}
